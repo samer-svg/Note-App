@@ -1,0 +1,20 @@
+{
+  "name": "note-app-api",
+  "version": "1.0.0",
+  "description": "Note App",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^6.12.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "prisma": "^6.12.0"
+  }
+}

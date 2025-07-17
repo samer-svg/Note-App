@@ -1,0 +1,24 @@
+###
+GET http://localhost:3000/notes
+###
+GET http://localhost:3000/notes/11
+###
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+  "title": "Daily Grind",
+  "content": "Hustling hard, grinding smarter, making moves."
+}
+
+###
+PUT http://localhost:3000/notes/21
+Content-Type: application/json
+
+{
+  "title" : "books",
+  "content":"going to buy a book"
+}
+
+###
+DELETE  http://localhost:3000/notes/22
