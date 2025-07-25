@@ -124,4 +124,4 @@ All responses are JSON. Errors return appropriate status codes and messages.
 ---
 
 ## 📝 License
-MIT © 2025 YourName
+MIT © 2025 Samer Alyaghn
